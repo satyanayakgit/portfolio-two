@@ -97,7 +97,7 @@ const Contact = () => {
               <p>
                 or say 'Hello' -{" "}
                 <span className="font-semibold text-designColor">
-                  satyanayak2040@gmail.com
+                  satysundar.nayak@gmail.com
                 </span>
               </p>
             </div>
