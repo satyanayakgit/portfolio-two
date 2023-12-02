@@ -24,6 +24,9 @@ const AboutMe = () => {
           problem and developing an elegant solution to that. I keep a watchful
           eye on emerging technologies and trends to stay ahead of the curve and
           apply the latest tools and techniques to my work.
+
+          My past experience includes working with complanies like TCS, Infosys, IBM, Accenture, 
+          Mphasis and Maybank.
         </p>
         <div className="w-[700px] grid grid-cols-1 md:grid-cols-2 gap-8">
           <AboutList title="Web Development" />
