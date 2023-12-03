@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <div className="font-bodyFont">
         <Banner />
         <AboutMe />
-        <LeftSide />
+        {/* <LeftSide /> */}
         <Offers />
         {/* <Works /> */}
         {/* <Testimonial /> */}
