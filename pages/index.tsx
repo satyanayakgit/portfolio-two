@@ -19,6 +19,7 @@ const Home: NextPage = () => {
 
       <div className="font-bodyFont">
         <Banner />
+        <LeftSide />
         <AboutMe />
         <Offers />
         {/* <Works /> */}
