@@ -17,10 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/smallLogo.ico" />
       </Head>
 
-      <div className="font-bodyFont">
-        <Banner />
-        <AboutMe />
-        <motion.div
+      <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
@@ -28,6 +25,23 @@ const Home: NextPage = () => {
           >
             <LeftSide />
           </motion.div>
+          <div className="h-[88vh] mx-auto p-4">
+            <Banner />
+            <AboutMe />
+            <Offers />
+            <Contact />
+            <Footer />
+          </div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
+          >
+
+      <div className="font-bodyFont">
+        <Banner />
+        <AboutMe />
         <Offers />
         {/* <Works /> */}
         {/* <Testimonial /> */}
