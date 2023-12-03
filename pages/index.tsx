@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import "slick-carousel/slick/slick.css";
 import Head from "next/head";
 import AboutMe from "../components/AboutMe";
+import LeftSide from "../components/LeftSide";
 import Banner from "../components/Banner";
 import Offers from "../components/Offers";
 import Works from "../components/Works";
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <div className="font-bodyFont">
         <Banner />
         <AboutMe />
+        <LeftSide />
         <Offers />
         {/* <Works /> */}
         {/* <Testimonial /> */}
