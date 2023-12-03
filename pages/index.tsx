@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <title>Satya Nayak | Profile</title>
         <link rel="icon" href="/smallLogo.ico" />
       </Head>
-
+ <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
       <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
         </motion.div>
-     
+ </div>    
 
 
     ==========================
