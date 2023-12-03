@@ -20,7 +20,14 @@ const Home: NextPage = () => {
       <div className="font-bodyFont">
         <Banner />
         <AboutMe />
-        <LeftSide />
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
+          >
+            <LeftSide />
+          </motion.div>
         <Offers />
         {/* <Works /> */}
         {/* <Testimonial /> */}
