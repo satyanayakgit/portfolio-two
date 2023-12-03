@@ -38,6 +38,11 @@ const Home: NextPage = () => {
             transition={{ delay: 1.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
+        </motion.div>
+     
+
+
+    ==========================
 
       <div className="font-bodyFont">
         <Banner />
